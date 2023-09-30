@@ -19,9 +19,7 @@ public class DropdownCheckbox {
         WebElement dm1=driver.findElement(By.tagName("input"));
         Select sdm=new Select(dm1);
         sdm.selectByIndex(0);
-
-
-                /*
+        /*
         WebElement d1=driver.findElement(By.id("people_0"));
         if(d1.isSelected()==false)
           d1.click();
