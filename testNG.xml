@@ -1,0 +1,13 @@
+<suite name="Test multiple login">
+    <test name="module 1">
+        <classes>
+            <class name="testNG1.classOne"/>
+            <class name="testNG1.classTwo"/>
+        </classes>
+    </test>
+    <test name="module 2">
+        <classes>
+            <class name="testNG1.classThree"/>
+        </classes>
+    </test>
+</suite>
